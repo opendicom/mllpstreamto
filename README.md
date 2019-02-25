@@ -11,7 +11,7 @@ pipes the message hl7 v2.3.1 to mllpstreato, which streams it to localhost ip at
 
 ## syntax
 
-hl7utf8message | mllpsend ip:port [encoding]
+> hl7utf8message | __mllpsend ip:port [encoding]__
 
 returns  0 when succes payload was received
 
